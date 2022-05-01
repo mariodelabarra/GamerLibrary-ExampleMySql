@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\GamerLibrary.Common.Domain\GamerLibrary.Common.Domain.csproj" />
+    <ProjectReference Include="..\GamerLibrary.Game.Domain\GamerLibrary.Game.Domain.csproj" />
+    <ProjectReference Include="..\GamerLibrary.Game.Repository\GamerLibrary.Game.Repository.csproj" />
   </ItemGroup>
 
 </Project>
