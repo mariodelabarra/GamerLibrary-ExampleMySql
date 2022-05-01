@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:3038",
-      "sslPort": 44303
+      "applicationUrl": "http://localhost:27377",
+      "sslPort": 44340
     }
   },
   "profiles": {
-    "GamerLibrary.Movie.API": {
+    "GamerLibrary.Game.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7009;http://localhost:5009",
+      "applicationUrl": "https://localhost:7122;http://localhost:5122",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

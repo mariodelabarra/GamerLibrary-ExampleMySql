@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GamerLibrary.Common.Domain\GamerLibrary.Common.Domain.csproj" />
+    <ProjectReference Include="..\GamerLibrary.Common.Repository\GamerLibrary.Common.Repository.csproj" />
+    <ProjectReference Include="..\GamerLibrary.Game.Domain\GamerLibrary.Game.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

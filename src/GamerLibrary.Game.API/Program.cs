@@ -1,6 +1,17 @@
+using GamerLibrary.Common.Repository;
+using GamerLibrary.Game.Repository;
+using GamerLibrary.Game.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.Configure<DbOptions>(builder.Configuration.GetSection(DbOptions.BaseSettingsKey));
+builder.Services.AddSingleton<IDbSettings, DbSettings>();
+
+builder.Services.AddScoped<IGameService, GameService>();
+builder.Services.AddScoped<IGameRepository, GameRepository>();
+
+builder.Services.AddDbContext<GameDbContext>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

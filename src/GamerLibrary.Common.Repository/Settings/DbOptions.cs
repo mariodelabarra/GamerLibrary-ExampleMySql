@@ -9,7 +9,7 @@
         /// </summary>
         /// <param name="databaseName">Database name used in settings files</param>
         /// <returns>Formated setting Key</returns>
-        public static string GetSettingsKey(string databaseName) => string.Format("{0}:{1}", BaseSettingsKey, databaseName);
+        public static string GetSettingsKey() => BaseSettingsKey;
 
         /// <summary>
         /// Get the ConnectionString of the Database Settings that it is defined on each setting file
