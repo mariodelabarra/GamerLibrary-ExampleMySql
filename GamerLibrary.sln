@@ -31,13 +31,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5964C9EA-26F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CC86D438-543B-46CD-AF87-159265336A04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamerLibrary.Game.API", "src\GamerLibrary.Game.API\GamerLibrary.Game.API.csproj", "{DA18F86D-F22B-421B-8D1D-175922B0DAED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerLibrary.Game.API", "src\GamerLibrary.Game.API\GamerLibrary.Game.API.csproj", "{DA18F86D-F22B-421B-8D1D-175922B0DAED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamerLibrary.Game.Domain", "src\GamerLibrary.Game.Domain\GamerLibrary.Game.Domain.csproj", "{F9ED17CE-5C34-486B-8DEB-FAF62BD78752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerLibrary.Game.Domain", "src\GamerLibrary.Game.Domain\GamerLibrary.Game.Domain.csproj", "{F9ED17CE-5C34-486B-8DEB-FAF62BD78752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamerLibrary.Game.Repository", "src\GamerLibrary.Game.Repository\GamerLibrary.Game.Repository.csproj", "{3C93E114-3795-40EB-AEFB-AA27EB51D806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerLibrary.Game.Repository", "src\GamerLibrary.Game.Repository\GamerLibrary.Game.Repository.csproj", "{3C93E114-3795-40EB-AEFB-AA27EB51D806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamerLibrary.Game.Service", "src\GamerLibrary.Game.Service\GamerLibrary.Game.Service.csproj", "{CD627D8F-EC4D-4E7B-BDFF-B7EBE4F9840B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerLibrary.Game.Service", "src\GamerLibrary.Game.Service\GamerLibrary.Game.Service.csproj", "{CD627D8F-EC4D-4E7B-BDFF-B7EBE4F9840B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

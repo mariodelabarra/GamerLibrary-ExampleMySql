@@ -1,4 +1,5 @@
-﻿using GamerLibrary.Game.Repository;
+﻿using GamerLibrary.Common.Domain;
+using GamerLibrary.Game.Repository;
 using GameDomain = GamerLibrary.Game.Domain.Game;
 
 namespace GamerLibrary.Game.Service
@@ -24,7 +25,9 @@ namespace GamerLibrary.Game.Service
         /// <inheritdoc/>
         public async Task<IEnumerable<GameDomain>> ReadAllAsync()
         {
-            return await _gameRepository.ReadAllAsync();
+            throw new NotFoundException(nameof(Domain.Game), "123");
+
+            //return await _gameRepository.ReadAllAsync();
         }
     }
 }
